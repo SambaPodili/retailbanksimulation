@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: ocbc assignment
+server:
+  port: ${port:8080}
+  ssl:
+    enabled: ${sslenabled:false}
+    client-auth: ${clientauth:none}
+    key-store: ${keystore:}
+    key-alias: ${keyalias:}
+    key-store-type: ${keystoretype:}
+    key-store-password: ${keystorepasswrod:}
+    key-password: ${keypassword:}
+    trust-store: ${truststore:}
+    trust-store-password: ${truststorepasswrod:}
+    trust-store-type: ${truststoretype:}
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - health
+        - info
+        - prometheus
+        

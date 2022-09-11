@@ -1,0 +1,5 @@
+com/ocbc/assignment/OcbcAssignmentApplication.class
+com/ocbc/assignment/config/PropertiesLoader.class
+com/ocbc/assignment/constants/AppConstants.class
+com/ocbc/assignment/commands/Commands.class
+com/ocbc/assignment/config/StarterSecurity.class
